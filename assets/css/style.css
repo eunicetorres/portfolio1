@@ -1,0 +1,45 @@
+
+.masthead {
+	background-image: url("../images/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	position: relative;
+	width: 100%;
+	height: 800px;
+	
+	
+
+	/*background-position: center;*/
+	/*background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../images/bg.jpg");
+	background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../images/random3.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;*/
+	font-family: 'Oswald', sans-serif;
+}
+
+
+#message {
+	transform: translateY(50%);
+	opacity: 0.75;
+	overflow: hidden;
+}
+
+.eunice-logo {
+	width: 40px;
+	height: 40px;
+}
+
+
+#pseudo-about, #pseudo-services, #pseudo-works, #pseudo-contact {
+	height: 85px;
+}
+
+.about, .services, .works, .contact{
+	background-color: #f7f7f7;
+	padding: 10px;
+	border-radius: 20px;
+}
